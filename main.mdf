@@ -1,0 +1,15 @@
+#### main.mdf
+####
+#### Below are examples used 
+
+#### Speech recognition
+#Plugin_Julius_lang=ja
+#Plugin_Julius_conf=dnn
+
+#### Delete caption
+#show_caption=false
+
+#### Submodule setting
+#Plugin_AnyScript_Command=python.exe -u test.py
+
+Plugin_AnyScript_Command=.venv/Scripts/python.exe -u ./scripts/main.py
